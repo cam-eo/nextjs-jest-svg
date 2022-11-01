@@ -4,6 +4,8 @@ I set this up to figure out how to stop Jest tests from failing when working wit
 
 Unfortunately this issue seems to change whenever NextJS updates their version, then new workarounds are needed.
 
+The icons used in this POC are downloaded from [eva icons](https://akveo.github.io/eva-icons/#/). Unfortunately their method of using svgs is not convinient when working with React/NextJs so this is the solution that works for now to take advantage of nextjs 13.
+
 ## Getting Started
 
 First, run the development server:
