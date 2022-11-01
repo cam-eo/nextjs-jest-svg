@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render Icon 1`] = `
+<DocumentFragment>
+  <svg
+    fill="#123456"
+    height="24"
+    width="24"
+  />
+</DocumentFragment>
+`;

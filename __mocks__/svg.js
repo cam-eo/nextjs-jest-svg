@@ -1,4 +1,3 @@
-export default "SvgrURL";
+export default "svg";
 export const ReactComponent = "div";
-
-//This was from this docs: https://react-svgr.com/docs/jest/
+//This was from svgr docs: https://react-svgr.com/docs/jest/
