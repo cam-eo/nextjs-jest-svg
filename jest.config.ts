@@ -2,15 +2,11 @@ import nextJest from "next/jest";
 import type { Config } from "@jest/types";
 
 export const jestCustomConfig: Config.InitialOptions = {
-  roots: ["<rootDir>"],
-  coverageDirectory: "coverage",
-  collectCoverage: true,
-  modulePaths: ["<rootDir>"],
   testEnvironment: "jest-environment-jsdom",
-  moduleDirectories: ["node_modules"],
-  coverageReporters: ["lcov", "text-summary"],
-  collectCoverageFrom: ["components/**/*.tsx"],
   verbose: true,
+  moduleNameMapper: {
+    "\\.svg$": "<rootDir>/__mocks__/svg.js",
+  },
 };
 
 export const createJestConfig = nextJest({
